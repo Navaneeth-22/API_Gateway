@@ -17,8 +17,15 @@ const SEAT_STATUS = {
     LOCKED : "locked"
 }
 
+const USER_ROLE = {
+    ADMIN : "admin",
+    USER : "user",
+    CINEMA_COMPANY : "cinema-company"
+}
+
 module.exports = {
     SEAT_TYPE,
     SHOW_STATUS,
-    SEAT_STATUS
+    SEAT_STATUS,
+    USER_ROLE
 }
